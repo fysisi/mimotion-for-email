@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout codes
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Update system and install zsh
         run: |
           sudo -E apt-get -qq update
