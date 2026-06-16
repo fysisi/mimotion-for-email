@@ -110,7 +110,7 @@ def getBeijinTime():
                 msg_mi = ""
             for user_mi, passwd_mi in zip(user_list, passwd_list):
                 msg_mi += main(user_mi, passwd_mi, min_1, max_1)
-                # print(msg_mi)
+                print(msg_mi)
             if a:
                 push_wx(msg_mi)
             else:
